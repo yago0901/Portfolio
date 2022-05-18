@@ -18,7 +18,7 @@
 
 .qualifications-container .qualification {
   position: relative;
-  height: 550px;
+  height: 500px;
   min-width: 40%;
   background-color: rgb(9, 6, 31);
   border-radius: 20px;
@@ -41,7 +41,7 @@
 .qualifications-container .qualification h1 {
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .qualifications-container .qualification .content.html {
