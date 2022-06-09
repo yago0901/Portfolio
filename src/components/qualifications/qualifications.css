@@ -14,12 +14,13 @@
   overflow-y: hidden;
   margin-top: 15px;
   user-select: none;
+  flex-direction: row;
 }
 
 .qualifications-container .qualification {
   position: relative;
-  height: 500px;
-  min-width: 40%;
+  height: 285px;
+  min-width: 330px;
   background-color: rgb(9, 6, 31);
   border-radius: 20px;
   margin: 0 20px 0 0;
@@ -44,16 +45,28 @@
   margin-top: 10px;
 }
 
-.qualifications-container .qualification .content.html {
-  background: rgba(255, 255, 255, 0.103) url(../props/html.png);
+.qualifications-container .qualification .content.html1 {
+  background: rgba(255, 255, 255, 0.103) url(../props/htmlcss1.png);
   background-position: center;
-  background-size: 66px;
+  background-size: 330px;
 }
-.qualifications-container .qualification .content.css {
-  background: rgba(255, 255, 255, 0.103) url(../props/css.png);
+
+.qualifications-container .qualification .content.html2 {
+  background: rgba(255, 255, 255, 0.103) url(../props/htmlcss2.png);
   background-position: center;
-  background-size: cover;
-  background-size: 66px;
+  background-size: 330px;
+}
+
+.qualifications-container .qualification .content.html3 {
+  background: rgba(255, 255, 255, 0.103) url(../props/htmlcss3.png);
+  background-position: center;
+  background-size: 330px;
+}
+
+.qualifications-container .qualification .content.javascript1 {
+  background: rgba(255, 255, 255, 0.103) url(../props/javascript1.png);
+  background-position: center;
+  background-size: auto;
 }
 .qualifications-container .qualification .content.javascript {
   background: rgba(255, 255, 255, 0.103) url(../props/js.jpg);

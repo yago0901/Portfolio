@@ -6,12 +6,20 @@ const Qualifications = () => {
       <span className="quali-text">Meus Cetificados</span>
       <div className="qualifications-container">
         <div className="qualification">
-          <div className="content html"></div>
-          <h1>html</h1>
+          <div className="content html1"></div>
+          <h1>html 1</h1>
         </div>
         <div className="qualification">
-          <div className="content css"></div>
-          <h1>css</h1>
+          <div className="content html2"></div>
+          <h1>html 2</h1>
+        </div>
+        <div className="qualification">
+          <div className="content html3"></div>
+          <h1>html 3</h1>
+        </div>
+        <div className="qualification">
+          <div className="content javascript1"></div>
+          <h1>javascript 1</h1>
         </div>
         <div className="qualification">
           <div className="content javascript"></div>
