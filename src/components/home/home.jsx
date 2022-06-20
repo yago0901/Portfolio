@@ -34,7 +34,7 @@ function Home() {
           Meu nome é Yago, também conhecido como Yago Assina.
           Sou desenvolvedor Front-end e atuo com React ts e js, React Native, Ui Design.
           Desenvolvo interfaces modernas com alta qualidade e alta performance.
-          Diferenciais em animações, responsividade e SEO.
+          Diferenciais em edições de imagens, vídeos, responsividade e SEO.
         </p>
       </h2>
 
