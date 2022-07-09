@@ -1,7 +1,7 @@
 import "./contact.css";
-import { AiOutlineYoutube } from "react-icons/ai";
+import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
 
 function Contact() {
   return (
@@ -9,20 +9,21 @@ function Contact() {
       <h1>Contato</h1>
       <div className="contact-links">
         <a
-          href="https://www.youtube.com/channel/UCzoBz4EKrLOvm3L4DDNc_pg"
+          href="https://github.com/yago0901"
           className="contact youtube"
           target={"blank"}
         >
-          <AiOutlineYoutube className="icon" />
+          <AiOutlineGithub className="icon" />
           <h2>
-            youtube <span>Creative Ambition</span>
+            Github <span>Desenvolvendo com paixão</span>
           </h2>
         </a>
 
         <a
-          href="https://wa.link/bywzv3"
+          href="https://contate.me/yagodev"
           className="contact whatsapp"
-          target={"blank"}
+          target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineWhatsApp className="icon" />
           <h2>
@@ -30,8 +31,11 @@ function Contact() {
           </h2>
         </a>
 
-        <a href="#" className="contact instagram">
-          <AiOutlineInstagram className="icon" />
+        <a href="https://www.linkedin.com/in/yagogigeck/" 
+          className="contact instagram"
+          target="_blank"
+          rel="noreferrer">
+          <AiOutlineLinkedin className="icon" />
           <h2>
             instagram <span>@yagoassina</span>
           </h2>
