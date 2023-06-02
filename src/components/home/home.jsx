@@ -31,7 +31,7 @@ function Home() {
       <h2>
         <span>Sobre</span> <br />
         <p>
-          Olá meu nome é Yago sou Desenvolvedor Front End. <br />
+          Olá meu nome é Yago, sou Desenvolvedor Front End. <br />
           Atuo com React js, React Native, Node js, Ui Design,
           <br />
           Graphql, Firebase entre outras tecnologias.

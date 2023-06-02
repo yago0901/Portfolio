@@ -34,7 +34,12 @@ const Members = () => {
             melhorias e mantendo código atualizado. Metodologia Scrum e
             linguagem Reacj Js.
           </h4>
-          <a href="#contact" className="contact-member">
+          <a
+            href="https://parafuzo.com/"
+            target="_blank"
+            className="contact-member"
+            rel="noreferrer"
+          >
             <span>contact</span>
           </a>
         </div>
