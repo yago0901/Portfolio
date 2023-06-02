@@ -32,7 +32,7 @@ const Members = () => {
           <h4 className="about">
             Desenvolvendo novas funcionalidades vindas de QA. Aplicando
             melhorias e mantendo código atualizado. Metodologia Scrum e
-            linguagem Reacj Js.
+            linguagem React Js.
           </h4>
           <a
             href="https://parafuzo.com/"
