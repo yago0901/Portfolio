@@ -20,7 +20,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://contate.me/yagodev"
+          href="https://contate.me/yagocontato"
           className="contact whatsapp"
           target="_blank"
           rel="noreferrer"
