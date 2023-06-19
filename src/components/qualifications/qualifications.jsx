@@ -2,7 +2,7 @@ import "./qualifications.css";
 
 const Qualifications = () => {
   return (
-    <div>
+    <div className="container-cert">
       <div className="cert-text">
         <span className="quali-text">Meus Certificados</span>
       </div>

@@ -192,8 +192,7 @@
   .home-container {
     position: relative;
     min-height: 100vh;
-    padding: 150px 40px;
-    margin-top: 20px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,7 +254,6 @@
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin-top: 200px;
   }
 
   .home-container h2 span {
@@ -277,8 +275,7 @@
   .home-container {
     position: relative;
     min-height: 100vh;
-    padding: 150px 30px;
-    margin-top: 20px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,7 +337,6 @@
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin-top: 200px;
   }
 
   .home-container h2 span {
@@ -373,8 +369,7 @@
   .home-container {
     position: relative;
     min-height: 100vh;
-    padding: 150px 10px 0;
-    margin-top: 20px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;

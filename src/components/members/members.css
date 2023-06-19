@@ -10,8 +10,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  min-height: 100vh;
-  margin-top: 100px;
 }
 
 .members-container .member {
@@ -81,8 +79,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-height: 100vh;
-    margin-top: 50px;
     width: 90%;
   }
 
@@ -154,8 +150,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-height: 100vh;
-    margin-top: 100px;
   }
 
   .members-container .member {
@@ -226,8 +220,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-height: 100vh;
-    margin-top: 10px;
   }
 
   .members-container .member {
@@ -298,8 +290,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-height: 100vh;
-    margin-top: 10px;
     padding: 10px;
   }
 
@@ -371,8 +361,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-height: 100vh;
-    margin-top: 10px;
     padding: 10px;
   }
 
