@@ -45,14 +45,16 @@
 }
 
 .members-container .member .member-img7 {
-  height: 300px;
-  width: 300px;
-  border-radius: 40px;
+  height: 100px; 
+  width: 100px;
+  border-radius: 50%;
   background: rgb(5, 7, 37) url(../props/img7.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   border: 2px solid var(--color-sec-light);
 }
+
 
 .members-container .member .member-img8 {
   height: 300px;
@@ -67,8 +69,24 @@
 .members-container .member .member-info {
   margin-left: 50px;
   font-family: "Open Sans Condensed";
-  max-width: 50%;
+  width: 90%;
 }
+
+.member-title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.redirect-site{
+  width: 100%;
+  text-align: end;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 
 .members-container .member .member-info .name {
   font-size: 40px;
@@ -91,7 +109,6 @@
   font-size: 18px;
   margin-top: 50px;
   border-radius: 50px;
-  position: absolute;
   transition: 0.1s ease;
 }
 .members-container .member .member-info .contact-member span {
@@ -167,9 +184,6 @@
     font-size: 25px;
     border-radius: 50px;
     transition: 0.1s ease;
-    position: absolute;
-    top: -55px;
-    right: 10px;
   }
 }
 
@@ -237,9 +251,6 @@
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
-    position: absolute;
-    top: -55px;
-    right: 10px;
   }
 }
 
@@ -307,9 +318,6 @@
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
-    position: absolute;
-    top: -55px;
-    right: 10px;
   }
 }
 
@@ -378,9 +386,6 @@
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
-    position: absolute;
-    top: -55px;
-    right: 10px;
   }
 }
 
@@ -421,7 +426,7 @@
     position: relative;
     margin-left: 10px;
     font-family: "Open Sans Condensed";
-    max-width: 70%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -449,8 +454,5 @@
     font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
-    position: absolute;
-    top: -55px;
-    right: 5px;
   }
 }
