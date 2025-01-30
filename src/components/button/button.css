@@ -140,7 +140,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 1rem;
     padding: 0;
     width: 100%;
   }
@@ -165,7 +165,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 1rem;
     padding: 0;
     width: 100%;
   }

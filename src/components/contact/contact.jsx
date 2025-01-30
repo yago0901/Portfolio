@@ -32,12 +32,12 @@ function Contact() {
         </a>
 
         <a href="https://www.linkedin.com/in/yagogigeck/" 
-          className="contact instagram"
+          className="contact linkedin"
           target="_blank"
           rel="noreferrer">
           <AiOutlineLinkedin className="icon" />
           <h2>
-            instagram <span>@yagoassina</span>
+          linkedin <span>@yagoassina</span>
           </h2>
         </a>
       </div>
