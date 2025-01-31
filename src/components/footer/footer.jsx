@@ -1,8 +1,5 @@
 import "./footer.css";
 import { BsMouse } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
-import { TiSocialYoutube } from "react-icons/ti";
 
 function Footer() {
   return (

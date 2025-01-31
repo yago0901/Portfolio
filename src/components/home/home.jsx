@@ -1,13 +1,19 @@
+import { useState } from "react";
 import "./home.css";
 import img from "../props/img2.jpg";
 import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 
 function Home() {
+  const [isHovered, setIsHovered] = useState(false);
   return (
     <div id="home" className="container home-container">
       <div className="logo">
-        <div className="hover-show">
+        <div
+          className={`hover-show ${isHovered ? "active" : ""}`}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
           <span className="circle"></span>
           <span className="circle"></span>
           <span className="circle"></span>
@@ -18,7 +24,7 @@ function Home() {
           <span className="circle"></span>
         </div>
 
-        <img src={img} alt="" />
+        <img src={img} alt='Yago Santos Gigeck' data-testid="fotoYago" />
       </div>
 
       <a href="#footer" className="scroll-down">
@@ -38,13 +44,14 @@ function Home() {
           tanto em empresas quanto de forma autônoma pela Dev Assina.
           Atualmente, foco na criação de aplicações performáticas e escaláveis,
           utilizando tecnologias modernas do ecossistema JavaScript/TypeScript.
-          <br/>Estudando atualmente CI/CD com docker.
+          <br />
+          Estudando atualmente CI/CD com docker.
         </p>
       </h2>
 
       <h2>Tecnologias e Ferramentas</h2>
 
-      <div class="category">
+      <div className="category">
         <ul>
           <li>
             <strong>Linguagens e Frameworks:</strong>
@@ -60,7 +67,8 @@ function Home() {
           </li>
           <li>
             <strong>Hooks:</strong>
-            useState, useEffect, useContext, useReducer, useRef, useForm e personalizados.
+            useState, useEffect, useContext, useReducer, useRef, useForm e
+            personalizados.
           </li>
           <li>
             <strong>Integração e APIs:</strong>
@@ -85,12 +93,12 @@ function Home() {
         </ul>
       </div>
 
-      <div class="category">
+      <div className="category">
         <h3>Integração e Backend</h3>
         <ul>
           <li>
             <strong>APIs e Gerenciamento de Dados:</strong>
-             Axios, Fetch API, Firebase
+            Axios, Fetch API, Firebase
           </li>
           <li>
             <strong>Gerenciamento de Estado:</strong>
@@ -99,7 +107,7 @@ function Home() {
         </ul>
       </div>
 
-      <div class="category">
+      <div className="category">
         <h3>🛠️ Ferramentas e Metodologias</h3>
         <ul>
           <li>
