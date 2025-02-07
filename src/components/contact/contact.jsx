@@ -8,7 +8,7 @@ function Contact() {
     <div id="contact" className="container contact-container">
       <h1>Contato</h1>
       <div className="contact-links">
-        <a
+        <a data-testid='github'
           href="https://github.com/yago0901"
           className="contact youtube"
           target={"blank"}
@@ -19,7 +19,7 @@ function Contact() {
           </h2>
         </a>
 
-        <a
+        <a data-testid='whatsapp'
           href="https://contate.me/yagocontato"
           className="contact whatsapp"
           target="_blank"
@@ -31,7 +31,8 @@ function Contact() {
           </h2>
         </a>
 
-        <a href="https://www.linkedin.com/in/yagogigeck/" 
+        <a data-testid='linkedin'
+        href="https://www.linkedin.com/in/yagogigeck/" 
           className="contact linkedin"
           target="_blank"
           rel="noreferrer">

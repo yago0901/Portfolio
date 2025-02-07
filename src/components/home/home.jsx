@@ -13,6 +13,7 @@ function Home() {
           className={`hover-show ${isHovered ? "active" : ""}`}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          data-testid="picture"
         >
           <span className="circle"></span>
           <span className="circle"></span>
@@ -24,7 +25,7 @@ function Home() {
           <span className="circle"></span>
         </div>
 
-        <img src={img} alt='Yago Santos Gigeck' data-testid="fotoYago" />
+        <img src={img} alt='Yago Santos Gigeck' />
       </div>
 
       <a href="#footer" className="scroll-down">
@@ -125,7 +126,7 @@ function Home() {
         </ul>
       </div>
 
-      <Buttons />
+      <Buttons/>
     </div>
   );
 }

@@ -9,7 +9,7 @@ const Members = () => {
     <div id="members" className="container members-container">
       <h1 className="member-txt">Projetos</h1>
 
-      <div className="member member-4">
+      <div className="member member-4" data-testid='member-4'>
         <div className="member-info">
           <div className="member-title">
             <img src={ParafuzzoImg} alt="Minha Figura" />
@@ -37,7 +37,7 @@ const Members = () => {
         </div>
       </div>
 
-      <div className="member member-3">
+      <div className="member member-3" data-testid='member-3'>
         <div className="member-info">
           <div className="member-title">
             <img src={AtenderDigitalImg} alt="Minha Figura" />
@@ -67,7 +67,7 @@ const Members = () => {
         </div>
       </div>
 
-      <div className="member member-2">
+      <div className="member member-2" data-testid='member-2'>
         <div className="member-info">
           <div className="member-title">
             <img src={FuvirImg} alt="Minha Figura" />
@@ -97,7 +97,7 @@ const Members = () => {
         </div>
       </div>
 
-      <div className="member member-1">
+      <div className="member member-1" data-testid='member-1'>
         <div className="member-info">
           <div className="member-title">
             <img src={BuscaTradeImg} alt="Minha Figura" />

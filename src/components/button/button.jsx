@@ -15,7 +15,7 @@ function Buttons() {
 
   return (
     <div className="container button-container">
-      <a onClick={onDownload2} download className="btn pri">
+      <a onClick={onDownload2} download className="btn pri" data-testid="curriculo">
         Curriculo
       </a>
       <a href="#contact" className="btn sec">
