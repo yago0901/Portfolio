@@ -1,7 +1,7 @@
 {
   "name": "react-app",
   "version": "0.1.0",
-  "homepage": "https://seu-usuario.github.io/Portifolio",
+  "homepage": "https://yago0901.github.io/Portifolio",
   "private": true,
   "dependencies": {
     "react": "^18.3.1",
@@ -17,7 +17,7 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "npm test && npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build && xcopy /E /Y build\\* docs\\"
   },
   "eslintConfig": {
     "extends": [
