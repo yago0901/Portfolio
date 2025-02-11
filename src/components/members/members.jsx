@@ -1,3 +1,4 @@
+import React from "react";
 import "./members.css";
 import BuscaTradeImg from "../props/img3.jpg";
 import FuvirImg from "../props/fuvir.jpg";

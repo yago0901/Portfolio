@@ -1,3 +1,4 @@
+import React from "react";
 import "./contact.css";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
