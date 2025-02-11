@@ -22,24 +22,13 @@ describe("Testando render", () => {
   });
 
   it("should trigger curriculum download on click", async () => {
-    global.fetch = jest.fn(() =>
-      Promise.resolve({
-        blob: () =>
-          Promise.resolve(
-            new Blob(["file content"], { type: "application/pdf" })
-          ),
-      })
-    );
-
-    global.URL.createObjectURL = jest.fn(() => "mocked-url");
-
     render(<Buttons />);
 
     const curriculumButton = await screen.findByTestId("curriculo");
 
     fireEvent.click(curriculumButton);
 
-    expect(global.fetch).toHaveBeenCalledWith("curriculo.pdf");
+    expect(curriculumButton).toHaveAttribute("href", "/curriculo.pdf");
 
   });
 });
