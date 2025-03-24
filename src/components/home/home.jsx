@@ -45,7 +45,7 @@ function Home() {
           Desde então, venho desenvolvendo soluções para web e mobile, atuando
           tanto em empresas quanto de forma autônoma pela Dev Assina.
           Atualmente, foco na criação de aplicações performáticas e escaláveis,
-          utilizando tecnologias modernas do ecossistema JavaScript/TypeScript.
+          utilizando tecnologias modernas do ecossistema JavaScript/TypeScript .
           <br />
           Estudando atualmente CI/CD com docker.
         </p>
